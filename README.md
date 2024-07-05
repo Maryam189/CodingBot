@@ -1,10 +1,35 @@
-# HuffMan Coding
+# Huffman Coding Project for Parsing file using Huffman Tree
 
-File Reading: Firstly, I have called the ReadMe() function in which I read the data from text file “character by character” and stored them in a string and return that string to main function. In this step, I also checked Validity of Characters. 
+## Overview
+This project focuses on designing and implementing a Huffman Coding system for efficient data compression and decompression. Utilizing advanced algorithms and data structures, this system optimizes file storage by effectively parsing files and representing them in compressed formats.
 
-Validation of ASCII Values: I have included the validation checks while reading the file. If there is some character read by file that is not ASCII value, it will display ERROR message and end the program.
+## Features
 
-Finding Frequencies: Then I found the frequencies of each character in the string and created two more character arrays i.e., one for number of distinct characters and other for their frequencies.
+### File Reading
+- **ReadMe Function**: Reads data from a text file "character by character," storing them in a string that is returned to the main function. This step includes the validation of characters to ensure they are valid ASCII values.
+- **Error Handling**: Implements validation checks while reading the file. If a non-ASCII character is detected, the program displays an ERROR message and terminates.
 
-IMPRESSIVE Menu: I have created an impressive Menu for User in which he/she select whether he/she want to implement Huffman Tree or Optimized Huffman Tree.
+### Frequency Finder
+- **Character Frequency Calculation**: Calculates the frequency of each character in the string and stores this data in two arrays—one for the distinct characters and another for their corresponding frequencies.
 
+### User Interface
+- **Interactive Menu**: Provides an impressive user menu allowing the choice between standard Huffman Tree and Optimized Huffman Tree implementations.
+
+## Tech Stack
+- **C++**: Utilized for the core programming.
+- **Object-Oriented Programming**: Facilitates better data management and more modular code.
+- **Data Structures**: Employs advanced data structures for efficient data handling and manipulation.
+- **Tree Structures**: Uses trees for the logical representation of Huffman coding.
+
+## Usage
+To run this project:
+1. Clone the repository to your local machine.
+2. Ensure your compiler supports C++.
+3. Compile the source files using a C++ compiler like `g++`.
+4. Run the compiled executable.
+
+## Contribution
+Contributions to this project are welcome! Please fork the repository, make your changes, and submit a pull request with a detailed description of your improvements or fixes.
+
+## License
+This project is open source and available under standard MIT license.
