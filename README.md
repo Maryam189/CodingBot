@@ -32,4 +32,4 @@ To run this project:
 Contributions to this project are welcome! Please fork the repository, make your changes, and submit a pull request with a detailed description of your improvements or fixes.
 
 ## License
-This project is open source and available under standard MIT license.
+This project is open source and available under standard MIT license. 
